@@ -1,0 +1,15 @@
+<html>
+<script>
+    function openWindow() {
+        var newtab = window.open("", "anotherWindow", "width=400,height=550");
+        newtab.document.write("<table border=1><tr><th>Ratings</th><th>Text</th></tr><tr><td>1</td><td>asd</td></tr><tr><td>2</td><td>dfdsf</td></tr></table>");
+    }  
+</script>
+
+<body>
+    <b> Click the button to open the new user-defined sized window </b>
+    <br><br>
+    <button onclick="openWindow()"> Open Window </button>
+</body>
+
+</html>
